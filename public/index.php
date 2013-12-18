@@ -10,7 +10,7 @@ if ($_POST['email']) {
         $link = mysql_connect('127.0.0.1', 'root', '');
         $ret = mysql_select_db('vstimes', $link);
     } else {
-        $link = mysql_connect('vstimes-db.my.phpcloud.com', 'vstimes', '5225076');
+        $link = mysql_connect('vstimes-db.my.phpcloud.com', 'vstimes', '----');
         $ret = mysql_select_db('vstimes', $link);
     }
 
